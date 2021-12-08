@@ -1,0 +1,179 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.body
+{
+	background-image:url(..\images\network.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	overflow;hidden;
+	
+}
+
+li
+ {
+ font-size:20px;
+ } 	
+.menu-bar
+{
+	background:#c83349;
+	text-align:center;
+	padding:15px;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar li
+{
+	width:190px;
+	margin:15px:
+	padding:15px;
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.active, .menu-bar ul li :hover
+{
+	background:#e06377;
+	border-radius:3px;
+}
+.bubbles img{
+	width:50px;
+	animation:bubble 7s linear infinite;
+
+	
+}
+.bubbles{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	position:absolute;
+	bottom:-7opx;
+}
+@keyframes bubble{
+	
+	 0%
+	 {
+		 transform:translateY(0);
+		 opacity:0;
+		 
+	 }
+	 50%{
+		 
+		 
+		 opacity:1;
+	 }
+	 70%{
+		 
+		 
+		 opacity:1;
+	 }
+	 100%{
+		 transform:translateY(-80vh);
+		 opacity:0;
+	 }
+}
+.bubbles img:nth-child(1){
+	animation-delay:2s;
+	width:120px;
+}
+.bubbles img:nth-child(2){
+	animation-delay:1s;
+	width:100px;
+}
+.bubbles img:nth-child(3){
+	animation-delay:3s;
+	width:105px;
+}
+.bubbles img:nth-child(4){
+	animation-delay:4.5s;
+	width:110px;
+}
+.bubbles img:nth-child(5){
+	animation-delay:3s;
+	width:100px;
+}
+.bubbles img:nth-child(6){
+	animation-delay:6s;
+	width:115px;
+}
+.bubbles img:nth-child(7){
+	animation-delay:7s;
+	width:110px;
+}
+.container{
+	max-width:1170px;
+	
+    margin:auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+ul{
+	list-style:none;
+}
+.footer{
+	background-color:#24262b;
+	padding:70px 0;
+}
+.footer-col{
+	width:25%;
+	padding:0 25px;
+}
+.footer-col h4{
+	font-size:18px;
+	color:#ffffff;
+	text-transform:capitalize;
+	margin-bottom:35px;
+	font-weight:500;
+	position:relative;
+	
+}
+.footer-col h4::before{
+   content:'';
+   position:absolute;
+   left:0;
+   bottom:-10px;
+   background-color:#e91e63;
+   height:2px;
+   box-sizing:border-box;
+   width:50px;
+   }
+.footer-col ul li:not(:last-child){
+	margin-bottom:10px;
+}
+.footer-col ul li a{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+	color:#bbbbbb;
+	display:block;
+	
+}
+ p{
+	font-size:16px;
+	text-transform:capitalize;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+	color:#bbbbbb;
+	display:block;
+	
+}
+ 
+	
+	
+

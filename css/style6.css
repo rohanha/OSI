@@ -1,0 +1,122 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.body
+{
+	background-image:url(..\images\network.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	overflow;hidden;
+	
+}
+
+li
+ {
+ font-size:20px;
+ } 	
+.menu-bar
+{
+	background:#c83349;
+	text-align:center;
+	padding:15px;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar li
+{
+	width:190px;
+	margin:15px:
+	padding:15px;
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.active, .menu-bar ul li :hover
+{
+	background:#e06377;
+	border-radius:3px;
+}
+.row
+{
+	display:flex;
+	height:88%;
+	align-items:center;
+}
+.col{
+
+margin-left:30px;
+flex-basis:50%;
+}
+
+
+.h1{
+color:black;
+font-size:100px;
+
+}
+p{
+	color:#e06377;
+	font-size:20px;
+	line-height:20px;
+	text-align:justify;
+	font-family:times new roman;
+	
+}
+button{
+	width:180px;
+	color:blue;
+	font-size:15px;
+	padding:12px 0;
+	background:#87bdd8;
+	border:0;
+	border-radius:20px;
+	outline:none;
+	margin-top:30px;
+	text-decoration:none;
+	
+	
+}
+
+
+.card{
+	width:230px;
+	height:290px;
+	display:inline-block;
+	border-radius:10px;
+	padding:15px ;
+	box-sizing:border-box;
+	cursor:pointer;
+	margin:10px 15px;
+	background-position:center;
+	background-size:cover;
+	transition:transform 0.5s;
+	font-size:20px;
+	
+}
+.card.card1{
+background-image:url(../images/cd.jpg);
+}
+.card.card2{
+background-image:url(../images/cd1.jpg);
+}
+
+
+.card:hover{
+	transform:translateY(-30PX);
+}
+h4{
+	color:#fff;
+	text-shadow:0 0 5px #999;
+	text-align:center;
+}
+

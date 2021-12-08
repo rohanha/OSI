@@ -1,0 +1,46 @@
+<html>
+<head>
+   <title> Transport layer</title>
+      <link rel="stylesheet" href="..\css\style3.css">
+</head>
+<body>
+<section>
+    <div class="circle"></div>
+    <div class="menu-bar"> 
+        <ul>
+          <li class="active"><a href="..\index.html"><b>Home</b></a></li>
+          <li><a href="about.html"><b>About</b></a></li>
+          <li><a href="7layers.html"><b>7 Layers</b></a></li>
+          <li><a href="tcp.html"><b>TCP vs OSI</b></a></li>
+          <li><a href="pros.html"><b>Pros & Cons</b></a></li>
+        </ul>
+    </div>
+ 
+   <div class="content">
+   <div class="textbox">
+      <h1><u>Transport layer</u></h1><br>
+      <p>The basic function of the Transport layer is to accept data from the layer above, split it up into smaller units, pass these data units to the Network layer, and ensure that all the pieces arrive correctly at the other end.
+
+Furthermore, all this must be done efficiently and in a way that isolates the upper layers from the inevitable changes in the hardware technology.
+
+The Transport layer also determines what type of service to provide to the Session layer, and, ultimately, to the users of the network. The most popular type of transport connection is an error-free point-to-point channel that delivers messages or bytes in the order in which they were sent.</p><br>
+       <h2><u>Functions of Transport Layer</u></h2><br>
+ 
+         <ul>
+           <li>Service Point Addressing: Transport Layer header includes service point address which is port address.
+           This layer gets the message to the correct process on the computer unlike Network Layer, which gets each packet to the correct computer.</li>
+           <li>Segmentation and Reassembling: A message is divided into segments; each segment contains sequence number, which enables this layer in reassembling the message. 
+           Message is reassembled correctly upon arrival at the destination and replaces packets which were lost in transmission.</li> 
+         </ul><br><br>
+   </div>
+<div class="imgbox">
+     <img src ="..\images\transport.png" alt="Transport layer image"> <br><br>
+
+     <CENTER><button type="button"><a href="../html/Session.html"> NEXT PAGE </button></CENTER>
+
+
+</div>
+</body>
+</html>
+
+    

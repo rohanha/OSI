@@ -1,0 +1,79 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.body
+{
+	background-image:url(..\images\network.jpg);
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	overflow;hidden;
+	
+}
+
+li
+ {
+ font-size:20px;
+ } 	
+.menu-bar
+{
+	background:#c83349;
+	text-align:center;
+	padding:15px;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+.menu-bar li
+{
+	width:190px;
+	margin:15px:
+	padding:15px;
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:black;
+}
+.active, .menu-bar ul li :hover
+{
+	background:#faccac;
+	border-radius:3px;
+}
+
+.row{
+	align-items:center;
+}
+
+.h1{
+color:black;
+font-size:100px;
+
+}
+p{
+	color:#e06377;
+	font-size:20px;
+	line-height:15px;
+	text-align:center;
+	align-items:center;
+}
+button{
+	width:180px;
+	color:blue;
+	font-size:15px;
+	padding:12px 0;
+	background:#87bdd8;
+	border:0;
+	border-radius:20px;
+	outline:none;
+	margin-top:30px;
+}
+
+	
+

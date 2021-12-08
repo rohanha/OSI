@@ -1,0 +1,49 @@
+<html>
+<head>
+   <title> DataLink layer</title>
+      <link rel="stylesheet" href="..\css\style3.css">
+</head>
+<body>
+<section>
+ <div class="circle"></div>
+
+<div class="menu-bar"> 
+   <ul>
+      <li class="active"><a href="index.html"><b>Home</b></a></li>
+     <li><a href="about.html"><b>About</b></a></li>
+      <li><a href="7layers.html">7 Layers</a></li>
+      <li><a href="tcp.html">TCP vs OSI</a></li>
+      <li><a href="pros.html">Pros & Cons</a></li>
+   </ul>
+</div>
+ 
+   <div class="content">
+   <div class="textbox">
+      
+	  <h1><u>Data Link Layer</u></h1><br>
+
+       <p>
+       Data link layer performs the most reliable node to node delivery of data.It forms frames from the packets that are received from network layer and gives it to physical layer.It also synchronizes the information which is to be transmitted over the data. Error controlling is easily done. 
+       The encoded data are then passed to physical.
+      </p>
+      <p>Error detection bits are used by the data link layer. It also corrects the errors.Outgoing messages are assembled into frames.
+      Then the system waits for the acknowledgements to be received after the transmission. It is reliable to send message.</p><br>
+      <h2><u>Functions of Data Link Layer</u></h2><br>
+        <ul>
+          <li>Framing: Frames are the streams of bits received from the network layer into manageable data units.
+          This division of stream of bits is done by Data Link Layer.</li>
+          <li>Physical Addressing: The Data Link layer adds a header to the frame in order to define physical address of the sender or receiver of the frame, if the frames are to be distributed to different systems on the network.</li>
+          <li>Flow Control: A flow control mechanism to avoid a fast transmitter from running a slow receiver by buffering the extra bit is provided by flow control.</li>
+        </ul><br>
+  </div>
+<div class="imgbox">
+     <img src ="..\images\datalink.png" alt="DataLink layer image"><br><br>
+
+     <CENTER><button type="button"><a href="../html/Network.html"> NEXT PAGE </button></CENTER>
+
+
+</div>
+</body>
+</html>
+
+
